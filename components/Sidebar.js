@@ -2,7 +2,7 @@ import Image from 'next/image'
 import useQuiosco from '../hooks/useQuiosco'
 import Categoria from './Categoria'
 
-const sidebar = () => {
+const Sidebar = () => {
     const {categorias} = useQuiosco()
   return (
     <>
@@ -25,4 +25,4 @@ const sidebar = () => {
   )
 }
 
-export default sidebar
+export default Sidebar
